@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ab5996-e713-476d-8b85-85a0034e965e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Kasia.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api_rekrutacyjne.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPApiParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NPBCurrency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoApplication.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/DateTimeParsingException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/DateTimeUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/ExchangeRates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/Rate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Kasia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Kasia.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPApiParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPApiParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NPBCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPCurrency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,13 +40,16 @@
     </option>
   </component>
   <component name="ProjectId" id="1eDNdggNHYeRyJG9JKiTHytLEVT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="project.structure.last.edited" value="Project" />
@@ -54,6 +61,26 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="kb.apirekrutacyjne" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kb.apirekrutacyjne.Main" />
+      <module name="api_rekrutacyjne" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kb.apirekrutacyjne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -78,13 +105,58 @@
       <option name="presentableId" value="Default" />
       <updated>1593852292530</updated>
     </task>
+    <task id="LOCAL-00001" summary="Loading currency is done">
+      <created>1593856938578</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593856938578</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Loading data done&#10;http request done">
+      <created>1593862802468</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593862802468</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Loading currency is done" />
+    <MESSAGE value="Loading data done&#10;http request done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loading data done&#10;http request done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1197" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1593855176147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1197" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593855176147" />
+    <state x="1042" y="117" key="CommitChangelistDialog2" timestamp="1593862801988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1042" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593862801988" />
+    <state width="1876" height="272" key="GridCell.Tab.0.bottom" timestamp="1593865248202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593865248202" />
+    <state width="1876" height="272" key="GridCell.Tab.0.center" timestamp="1593865248202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593865248202" />
+    <state width="1876" height="272" key="GridCell.Tab.0.left" timestamp="1593865248202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593865248202" />
+    <state width="1876" height="272" key="GridCell.Tab.0.right" timestamp="1593865248202">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593865248202" />
+    <state x="984" y="256" key="Vcs.Push.Dialog.v2" timestamp="1593856945103">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="984" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593856945103" />
     <state x="1122" y="278" key="extract.method.dialog" timestamp="1593856644594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

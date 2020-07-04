@@ -1,0 +1,40 @@
+2020-07-04 13:58:12,519 [main] INFO  kb.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+2020-07-04 13:58:22,421 [main] INFO  kb.apirekrutacyjne.Main  - Please enter end date [yyyy-MM-dd]:
+2020-07-04 13:58:33,710 [main] INFO  kb.apirekrutacyjne.Main  - Please enter start date [yyyy-MM-dd]:
+2020-07-04 13:58:41,524 [main] INFO  kb.apirekrutacyjne.NBPApi  - Request URL: http://api.nbp.pl/api/exchangerates/rates/C/USD/2020-07-01/2020-07-03/?format=json
+2020-07-04 13:58:41,760 [main] INFO  kb.apirekrutacyjne.NBPApi  - Response: {"table":"C","currency":"dolar amerykański","code":"USD","rates":[{"no":"126/C/NBP/2020","effectiveDate":"2020-07-01","bid":3.9268,"ask":4.0062},{"no":"127/C/NBP/2020","effectiveDate":"2020-07-02","bid":3.9352,"ask":4.0148},{"no":"128/C/NBP/2020","effectiveDate":"2020-07-03","bid":3.9222,"ask":4.0014}]}
+2020-07-04 13:59:34,346 [main] INFO  kb.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+2020-07-04 13:59:39,348 [main] INFO  kb.apirekrutacyjne.Main  - Please enter end date [yyyy-MM-dd]:
+2020-07-04 14:00:06,522 [main] INFO  kb.apirekrutacyjne.DateTimeUtilities  - Błąd parsowania daty.
+2020-07-04 14:00:06,528 [main] ERROR kb.apirekrutacyjne.Main  - Wrong date: End date should be no later than yesterday.
+2020-07-04 14:00:06,528 [main] INFO  kb.apirekrutacyjne.Main  - Please enter end date [yyyy-MM-dd]:
+2020-07-04 14:15:20,053 [main] INFO  kb.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+2020-07-04 14:15:23,654 [main] INFO  kb.apirekrutacyjne.Main  - Please enter end date [yyyy-MM-dd]:
+2020-07-04 14:15:29,327 [main] INFO  kb.apirekrutacyjne.Main  - Please enter start date [yyyy-MM-dd]:
+2020-07-04 14:15:35,007 [main] INFO  kb.apirekrutacyjne.NBPApi  - Request URL: http://api.nbp.pl/api/exchangerates/rates/C/EUR/2020-06-21/2020-07-01/?format=json
+2020-07-04 14:17:36,330 [main] INFO  kb.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+2020-07-04 14:17:40,945 [main] INFO  kb.apirekrutacyjne.Main  - Please enter end date [yyyy-MM-dd]:
+2020-07-04 14:17:45,104 [main] INFO  kb.apirekrutacyjne.Main  - Please enter start date [yyyy-MM-dd]:
+2020-07-04 14:17:50,121 [main] INFO  kb.apirekrutacyjne.NBPApi  - Request URL: http://api.nbp.pl/api/exchangerates/rates/C/USD/2020-06-01/2020-07-01/?format=json
+2020-07-04 14:20:02,493 [main] INFO  kb.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+2020-07-04 14:20:05,911 [main] INFO  kb.apirekrutacyjne.Main  - Please enter end date [yyyy-MM-dd]:
+2020-07-04 14:20:10,924 [main] INFO  kb.apirekrutacyjne.Main  - Please enter start date [yyyy-MM-dd]:
+2020-07-04 14:20:16,220 [main] INFO  kb.apirekrutacyjne.NBPApi  - Request URL: http://api.nbp.pl/api/exchangerates/rates/C/RUB/2020-06-01/2020-06-30/?format=json
+2020-07-04 14:20:16,456 [main] ERROR kb.apirekrutacyjne.NBPApi  - Error: 404
+2020-07-04 14:20:49,396 [main] INFO  kb.apirekrutacyjne.Main  - Please enter currency [dolar,euro,rubel]:
+2020-07-04 14:20:54,399 [main] INFO  kb.apirekrutacyjne.Main  - Please enter end date [yyyy-MM-dd]:
+2020-07-04 14:21:01,601 [main] INFO  kb.apirekrutacyjne.Main  - Please enter start date [yyyy-MM-dd]:
+2020-07-04 14:21:10,228 [main] INFO  kb.apirekrutacyjne.NBPApi  - Request URL: http://api.nbp.pl/api/exchangerates/rates/C/USD/2020-06-15/2020-07-01/?format=json
+2020-07-04 14:21:10,511 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=114/C/NBP/2020, effectiveDate=2020-06-15, bid=3.8922, ask=3.9708)
+2020-07-04 14:21:10,530 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=115/C/NBP/2020, effectiveDate=2020-06-16, bid=3.894, ask=3.9726)
+2020-07-04 14:21:10,530 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=116/C/NBP/2020, effectiveDate=2020-06-17, bid=3.8944, ask=3.973)
+2020-07-04 14:21:10,531 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=117/C/NBP/2020, effectiveDate=2020-06-18, bid=3.9384, ask=4.018)
+2020-07-04 14:21:10,531 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=118/C/NBP/2020, effectiveDate=2020-06-19, bid=3.935, ask=4.0144)
+2020-07-04 14:21:10,531 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=119/C/NBP/2020, effectiveDate=2020-06-22, bid=3.9388, ask=4.0184)
+2020-07-04 14:21:10,531 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=120/C/NBP/2020, effectiveDate=2020-06-23, bid=3.9157, ask=3.9949)
+2020-07-04 14:21:10,532 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=121/C/NBP/2020, effectiveDate=2020-06-24, bid=3.8847, ask=3.9631)
+2020-07-04 14:21:10,532 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=122/C/NBP/2020, effectiveDate=2020-06-25, bid=3.9092, ask=3.9882)
+2020-07-04 14:21:10,532 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=123/C/NBP/2020, effectiveDate=2020-06-26, bid=3.9428, ask=4.0224)
+2020-07-04 14:21:10,532 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=124/C/NBP/2020, effectiveDate=2020-06-29, bid=3.9489, ask=4.0287)
+2020-07-04 14:21:10,533 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=125/C/NBP/2020, effectiveDate=2020-06-30, bid=3.9274, ask=4.0068)
+2020-07-04 14:21:10,533 [main] INFO  kb.apirekrutacyjne.Main  - Rate(no=126/C/NBP/2020, effectiveDate=2020-07-01, bid=3.9268, ask=4.0062)

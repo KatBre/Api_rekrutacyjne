@@ -2,13 +2,13 @@ package kb.apirekrutacyjne;
 
 import java.util.Optional;
 
-public enum NPBCurrency {
+public enum NBPCurrency {
     AMERICAN_DOLLAR("USD"),
     RUSSIAN_RUBEL("RUB"),
     EURO("EUR");
     private String shortName;
 
-    NPBCurrency(String shortName) {
+    NBPCurrency(String shortName) {
         this.shortName = shortName;
     }
 
@@ -16,13 +16,13 @@ public enum NPBCurrency {
         return shortName;
     }
 
-    public static Optional<NPBCurrency> parse(String input) {
+    public static Optional<NBPCurrency> parse(String input) {
         if (input.toUpperCase().contains("DOLAR")) {
-            return Optional.of(NPBCurrency.AMERICAN_DOLLAR);
+            return Optional.of(NBPCurrency.AMERICAN_DOLLAR);
         } else if (input.toUpperCase().contains("RUBEL")) {
-            return Optional.of(NPBCurrency.RUSSIAN_RUBEL);
+            return Optional.of(NBPCurrency.RUSSIAN_RUBEL);
         } else if (input.toUpperCase().contains("EURO")) {
-            return Optional.of(NPBCurrency.EURO);
+            return Optional.of(NBPCurrency.EURO);
         }
         return Optional.empty();
     }
