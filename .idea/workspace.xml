@@ -2,7 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ab5996-e713-476d-8b85-85a0034e965e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/exception/NoResultsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/api_rekrutacyjne-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kb/apirekrutacyjne/DateTimeParsingException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kb/apirekrutacyjne/DateTimeUtilities.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kb/apirekrutacyjne/ExchangeRates.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kb/apirekrutacyjne/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kb/apirekrutacyjne/NBPApi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kb/apirekrutacyjne/NBPApiParameters.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kb/apirekrutacyjne/NBPCurrency.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/kb/apirekrutacyjne/Rate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/DateTimeParsingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/exception/DateTimeParsingException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/DateTimeUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/DateTimeUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/ExchangeRates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/model/ExchangeRates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPApiParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/model/NBPApiParameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/model/NBPCurrency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/Rate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/model/Rate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +80,7 @@
       <module name="api_rekrutacyjne" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kb.apirekrutacyjne.*" />
+          <option name="PATTERN" value="kb.apirekrutacyjne.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593866464659</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="readme added">
+      <created>1593867127954</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593867127954</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -137,37 +168,37 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1197" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593855176147" />
-    <state x="1042" y="117" key="CommitChangelistDialog2" timestamp="1593866464373">
+    <state x="1042" y="117" key="CommitChangelistDialog2" timestamp="1593867127615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1042" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593866464373" />
-    <state width="996" height="272" key="GridCell.Tab.0.bottom" timestamp="1593866495180">
+    <state x="1042" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593867127615" />
+    <state width="996" height="266" key="GridCell.Tab.0.bottom" timestamp="1593868545642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="996" height="272" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593866495180" />
-    <state width="996" height="272" key="GridCell.Tab.0.center" timestamp="1593866495180">
+    <state width="996" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593868545642" />
+    <state width="996" height="266" key="GridCell.Tab.0.center" timestamp="1593868545641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="996" height="272" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593866495180" />
-    <state width="996" height="272" key="GridCell.Tab.0.left" timestamp="1593866495180">
+    <state width="996" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593868545641" />
+    <state width="996" height="266" key="GridCell.Tab.0.left" timestamp="1593868545641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="996" height="272" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593866495180" />
-    <state width="996" height="272" key="GridCell.Tab.0.right" timestamp="1593866495180">
+    <state width="996" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593868545641" />
+    <state width="996" height="266" key="GridCell.Tab.0.right" timestamp="1593868545641">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="996" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593866495180" />
-    <state x="984" y="256" key="Vcs.Push.Dialog.v2" timestamp="1593866470657">
+    <state width="996" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593868545641" />
+    <state x="984" y="256" key="Vcs.Push.Dialog.v2" timestamp="1593867198140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="984" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593866470657" />
+    <state x="984" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593867198140" />
     <state x="1122" y="278" key="extract.method.dialog" timestamp="1593856644594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1122" y="278" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593856644594" />
-    <state x="685" y="217" key="new project wizard" timestamp="1593865921515">
+    <state x="685" y="217" key="new project wizard" timestamp="1593867404184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="685" y="217" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593865921515" />
+    <state x="685" y="217" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593867404184" />
   </component>
 </project>

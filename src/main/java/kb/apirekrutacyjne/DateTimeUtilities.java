@@ -1,5 +1,6 @@
 package kb.apirekrutacyjne;
 
+import kb.apirekrutacyjne.exception.DateTimeParsingException;
 import lombok.extern.log4j.Log4j;
 
 import java.time.LocalDate;

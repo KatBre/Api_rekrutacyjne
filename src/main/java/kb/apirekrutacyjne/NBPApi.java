@@ -1,6 +1,10 @@
 package kb.apirekrutacyjne;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import kb.apirekrutacyjne.exception.NoResultsException;
+import kb.apirekrutacyjne.model.ExchangeRates;
+import kb.apirekrutacyjne.model.NBPApiParameters;
+import kb.apirekrutacyjne.model.Rate;
 import lombok.extern.log4j.Log4j;
 
 import java.io.IOException;
@@ -8,7 +12,6 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.ArrayList;
 import java.util.List;
 
 @Log4j
@@ -46,7 +49,7 @@ public class NBPApi {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return new ArrayList<>();
+        return (List<Rate>) new NoResultsException("There was no result from API call.");
     }
 
     private String prepareRequestURL(NBPApiParameters parameters) {

@@ -1,4 +1,4 @@
-package kb.apirekrutacyjne;
+package kb.apirekrutacyjne.model;
 
 import java.util.Optional;
 

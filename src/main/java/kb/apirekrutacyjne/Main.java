@@ -1,11 +1,15 @@
 package kb.apirekrutacyjne;
 
+import kb.apirekrutacyjne.exception.DateTimeParsingException;
+import kb.apirekrutacyjne.model.NBPApiParameters;
+import kb.apirekrutacyjne.model.NBPCurrency;
+import kb.apirekrutacyjne.model.Rate;
 import lombok.extern.log4j.Log4j;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
-import java.util.logging.Logger;
+
 
 @Log4j
 public class Main {
