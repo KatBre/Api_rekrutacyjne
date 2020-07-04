@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ab5996-e713-476d-8b85-85a0034e965e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demoApplication.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/DateTimeParsingException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/DateTimeUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/ExchangeRates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/Rate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Kasia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Kasia.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPApiParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPApiParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NPBCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kb/apirekrutacyjne/NBPCurrency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,24 +108,32 @@
       <option name="project" value="LOCAL" />
       <updated>1593862802468</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="table with rates done">
+      <created>1593865327887</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593865327887</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Loading currency is done" />
     <MESSAGE value="Loading data done&#10;http request done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Loading data done&#10;http request done" />
+    <MESSAGE value="table with rates done" />
+    <option name="LAST_COMMIT_MESSAGE" value="table with rates done" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1197" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1593855176147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1197" y="224" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593855176147" />
-    <state x="1042" y="117" key="CommitChangelistDialog2" timestamp="1593862801988">
+    <state x="1042" y="117" key="CommitChangelistDialog2" timestamp="1593865327493">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1042" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593862801988" />
+    <state x="1042" y="117" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1593865327493" />
     <state width="1876" height="272" key="GridCell.Tab.0.bottom" timestamp="1593865248202">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -153,13 +150,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1876" height="272" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593865248202" />
-    <state x="984" y="256" key="Vcs.Push.Dialog.v2" timestamp="1593856945103">
+    <state x="984" y="256" key="Vcs.Push.Dialog.v2" timestamp="1593865333819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="984" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593856945103" />
+    <state x="984" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1593865333819" />
     <state x="1122" y="278" key="extract.method.dialog" timestamp="1593856644594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1122" y="278" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593856644594" />
+    <state x="685" y="217" key="new project wizard" timestamp="1593865921515">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="685" y="217" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593865921515" />
   </component>
 </project>
